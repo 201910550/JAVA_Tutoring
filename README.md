@@ -1,2 +1,2 @@
-# JAVA_Mentoring
-2021 1학기 멘토링 실습
+# JAVA_Tutoring
+2021 1학기 튜터링
