@@ -19,7 +19,7 @@ public class baekjoon_11057 {
         for(int i=0; i<10; i++){
             sum += uphill[n][i];
         }
-        System.out.println(sum%10007); //-값이 나오는 경우?? ex.47
+        System.out.println(sum%10007); //-값이 나오는 경우?? ex.47 수정 필요
     }
 }
 /**
