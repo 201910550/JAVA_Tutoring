@@ -1,4 +1,4 @@
-//상송과 다형성 실습문제 2번
+//상과 다형성 실습문제 2번
 //IPTV 클래스
 public class tutoring_hm2_IPTV extends tutoring_hm1_ColorTV{
     protected String ip;
