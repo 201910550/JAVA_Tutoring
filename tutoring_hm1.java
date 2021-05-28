@@ -17,3 +17,11 @@ public class tutoring_hm1_ColorTV extends tutoring_hm1_TV{
         System.out.println(getSize()+"인치 "+color+"컬러");
     }
 }
+
+//main 클래스
+public class tutoring_hm1_main {
+    public static void main(String[] args){
+        tutoring_hm1_ColorTV myTV = new tutoring_hm1_ColorTV(32, 1024);
+        myTV.printProperty();
+    }
+}
