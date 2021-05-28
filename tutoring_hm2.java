@@ -1,4 +1,15 @@
 //상속과 다형성 실습문제 2번
+//ColorTV 클래스
+public class tutoring_hm1_ColorTV extends tutoring_hm1_TV{
+    protected int color;
+    public tutoring_hm1_ColorTV(int size, int color){
+        super(size);
+        this.color = color;
+    }
+    public void printProperty(){
+        System.out.println(getSize()+"인치 "+color+"컬러");
+    }
+}
 //IPTV 클래스
 public class tutoring_hm2_IPTV extends tutoring_hm1_ColorTV{
     protected String ip;
