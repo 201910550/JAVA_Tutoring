@@ -26,7 +26,7 @@ public class tutoring_hm3_Won2Dollar extends tutoring_hm3_Converter{
 
     @Override
     protected double convert(double src) {
-        return src/1200;
+        return src/dollar;
     }
     @Override
     protected String getSrcString() {
